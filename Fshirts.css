@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 4px 0;
+    background-color: #222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.code {
+    background-color: black;
+    text-transform: uppercase;
+
+}
+.F {
+    padding: 5px;
+    text-align: center;
+    height: 200px;
+    float: inline-end;
+}
